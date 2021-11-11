@@ -353,7 +353,9 @@ div {
 }
 
 
-
+.arrow {
+  display: flex;
+}
 
 
 
