@@ -323,7 +323,7 @@ div {
   transition: transform .2s;
   height: 200px;
   width: 200px;
-  margin-top: 1400px;
+  margin-top: 1000px;
 }
 
 .github {
@@ -354,11 +354,19 @@ div {
 
 
 .arrow {
-  display: flex;
+  position: relative;
+  right: 350px;
+  top: 20px;
+  transform: rotate(-2deg);
 }
 
 
-
+.chalktext {
+  position: relative;
+  right: 350px;
+  top: -20px;
+  transform: rotate(-10deg);
+}
 
 
 
