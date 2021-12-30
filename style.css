@@ -391,6 +391,20 @@ div {
 }
 
 
+@media screen and (max-width: 600px){
+  div.context {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 620px){
+  div.context2 {
+    font-size: 30px;
+  }
+}
+
+
+
 @keyframes bounce {
   0% {
     tranform: translate(0, 4px);
